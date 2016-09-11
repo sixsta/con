@@ -1,0 +1,40 @@
+ulr
+{
+list-style-type: none;
+}
+body
+{
+background-color:#172C11;
+color:#F2BF73;
+}
+#a
+{
+margin-left:400px;
+}
+p
+{
+font-size:20pt
+}
+h1
+{
+font-size:45pt;
+}
+li
+{
+font-size: 15pt
+}
+a:active{color:#C0F;background-color:009;font-weight:bold;text-decoration:underline;}
+a:link{color:#900;font-weight:100; text-decoration: none;}
+a:visited{color:#c93;font-weight:100; text-decoration: none;}
+a:hover{color:#f03;font-weight:bold;text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+84520
