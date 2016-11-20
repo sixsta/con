@@ -1,0 +1,19 @@
+RewriteBase / # строка которая будет добавлена к запросу.
+
+AddType application/octet-stream .exe # передаём exe файлы на обработку в octet-stream
+AddType application/x-rar-compressed .rar # передаём rar файлы на обработку в x-rar-compressed
+AddDefaultCharset utf-8 # сделать базовой кодировку utf-8
+
+
+RewriteEngine On # включаем mod_rewrite
+
+
+RewriteCond %{REQUEST_FILENAME} !-f # Сравниваемая Строка считается путем, проверяется существование этого пути и то что этот путь является обычным файлом.
+RewriteCond %{REQUEST_FILENAME} !-d # Сравниваемая Строка считается путем, проверяется существование этого пути и то что этот путь является каталогом.
+
+
+RewriteRule ^$ /app/WebRoot/ [L] # если строка пуста, то заменим её на /app/WebRoot/
+
+
+RewriteRule ^(.*)$ /app/WebRoot/$1 [L] # если в строке есть информация, то заменим её на /app/WebRoot/ + строку которая была в RewriteRule.
+# Это значит что переменной 1 ($1) записана информация которая прошла проверку по регулярному выражение(^(.*)$). Соответственно после работы RewriteRule проверяются условия RewriteCond.
