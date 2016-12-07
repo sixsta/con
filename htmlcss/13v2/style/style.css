@@ -1,0 +1,49 @@
+*{padding:0px;margin:0px;}
+body{background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSp7Wbce0lxBYrN0SLcXcnzzyjZNn75ZXFpl3qs9bBdyVJFt0h9");background-repeat:round;}
+/*фон всего макета */
+/*настройка стилей для логотипа над меню */
+#head {width:740px;height:164px;margin:auto;color:white;}
+#head img{margin-left:35%; width:10%;float:left;margin-top:50px;}
+#head h1{position:relative;top:65px;}
+/*настройка стилей для логотипа над меню */
+/*форматирование меню */
+#menu {margin:auto;width:740px;height:20px;position:relative;top:-20px;color:white;height:20px;}
+#menu a{display:inline-block;margin-right:40px;text-decoration:underline;padding-bottom:20px;}
+#menu a:last-child {margin-right:0px;}/*убирание отступа у крайнего элемента меню*/
+/*форматирование меню */
+/*форматирование ссылок */
+#menu a:link{color:white;}
+#menu a:visited{color:white;}
+#menu a:active{color:white;}
+#menu p{font-size:20px;display:inline-block;margin:0px;position:relative;top:-5px;text-decoration:underline;}
+#menu img{width:20px;height:20px;margin-right:5px;display:inline-block;float:left;}
+#menu img:nth-child(4){height:18px;width:16px;}/*отдельные настройки для четвёртой картинки */
+/*форматирование ссылок*/
+/*работа над контентом */
+#content {width:740px;height:auto;margin:auto;border-radius: 10px;background-color:white;color:#0e4d66;}
+#content div{display:inline-block;}/*изменение типа блоков в контента на инлайн блоки*/
+#content div:nth-child(-n+3) {margin-right:30px;}/*устанановление стиля для первого, второго и третьего блоков */
+#content div:nth-child(n+4) {margin-right:10px;}/*установления стиля для четвёртого и пятого блоков */
+/*форматирование текста внутри контента*/
+#content h4, p{margin-bottom:20px; line-height:1.5;}
+#content h2{margin:30px 0px 35px 0px;}
+#content h3{margin:20px 0px 30px 0px;}
+/*форматирование текста внутри контента*/
+#content #obertka {margin:0px 30px 30px 70px;width:620px;}/*назначение границ объектов внутри контента до его границы с помощью блока обёртка*/
+/*работа над контентом */
+/*подвал */
+#footer {width:740px;height:auto;margin:95px auto 40px auto;}/*размеры и положение*/
+#footer img{width:35%;float:left;}
+#footer div:last-child{ margin-left: auto;margin-right: 0;width:210px;color:white;}/*второй блок подвала*/
+#footer p{margin-top:6px;}
+#footer h3{color:#d39c26; margin:0px 20px 0px 0px;font-size:20pt}
+#footer div{ color:white;}/*граница от контента до подвала и от подвала до конца страницы */
+/*форматирование ссылки */
+#footer a{text-decoration:underline;margin-right:0px;float:none;}
+#footer a:link{color:#d39c26;}
+#footer a:visited{color:#d39c26;}
+#footer a:active{color:#d39c26;}
+/*форматирование ссылки */
+/*подвал */
+
+
