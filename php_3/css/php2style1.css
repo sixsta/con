@@ -1,0 +1,39 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{background: #DBDBDB;}
+
+.container
+{	
+width:250px;
+position:relative;
+margin:auto;
+}
+p{
+margin:auto;
+}
+#login
+{
+	margin-bottom:15px;
+}
+#password{margin-bottom:15px;}
+input
+{
+position:relative;
+margin:0px 0px 10px;
+font-size:13pt;
+}
+form{
+	background-color:#CFCFCF;
+	padding:10px;
+	border: 2px solid #BFBFBF;
+	margin:auto
+	width:300px;
+}
+
+	a{
+		margin:15px;
+	}
+	button{padding:3px 6px;font-size:12pt;}
+	span{color:red;}
