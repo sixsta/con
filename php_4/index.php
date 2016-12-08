@@ -53,7 +53,7 @@
 		$result_index = preg_match_all($regul, $res, $result, PREG_PATTERN_ORDER);
 		if ($result_index == 0)
 		{
-			echo "<p style=\"width:300px;\\margin:0 auto;\">".'ничего не найдено'."</p>";
+			echo "<p style=\" width:300px;\\margin:0 auto;\">".'ничего не найдено'."</p>";
 		}
 		else
 		{
